@@ -1,10 +1,10 @@
-//your code here
+
 double xX, yY, angle, speed;
 int myColor;
 Particle[] Wilbert;
 void setup()
 {
-  //your code here
+  
   size(1000,1000);
   background(0);
   Wilbert = new Particle [500];
@@ -32,7 +32,7 @@ void setup()
   }
 void draw()
 {
-  //your code here
+ 
   background(0);
   
   for(int i = 0; i<Wilbert.length; i++){
@@ -42,7 +42,7 @@ void draw()
 }
 class Particle
 {
-  //your code here
+  
   double xX, yY, angle, speed;
   int myColor;
   Particle()
